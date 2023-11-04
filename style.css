@@ -19,21 +19,45 @@ header h1 {
 }
 
 main {
-  background-color: rgb(215, 242, 255)
+  background-color: rgb(215, 242, 255);
+  display: flex;
+  justify-content: center;
+}
+a {
+  font-weight: 800;
+  color: brown;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  background-color: brown;
+  text-decoration: none;
+}
+section {
+  margin: 100px;
+  text-align: center;
+}
+main p {
+  margin: 20px 20px;
+}
+main div {
+  margin: 50px 20px;
 }
 
 footer {
   background-color: rgb(188, 230, 247);
   height: 100px;
   width: 100%;
-  
-  
 }
-footer p{
-  font-size: 1.5rem;
+footer p {
+  font-size: 1.4rem;
   font-weight: bold;
   text-align: right;
   margin: 20px 10px;
+}
+p img {
+  width: 23px;
+  vertical-align: top;
 }
 
 body {
