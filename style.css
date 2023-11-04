@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+}
+
+main {
+  width: 100%;
+  height: calc(100vh - 250px);
+}
+
+header {
+  background-color: rgb(188, 230, 247);
+  height: 150px;
+  width: 100%;
+}
+
+header h1 {
+  margin: 20px;
+  text-align: center;
+}
+
+main {
+  background-color: rgb(215, 242, 255)
+}
+
+footer {
+  background-color: rgb(188, 230, 247);
+  height: 100px;
+  width: 100%;
+  
+  
+}
+footer p{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: right;
+  margin: 20px 10px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
